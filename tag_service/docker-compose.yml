@@ -13,7 +13,7 @@ services:
       - ./mongo-volume:/data/db
   tag_service:
     restart: always
-    image: theartofdevel/notes_system.tag_service:latest
+    image: weasealay/notes_system.tag_service:latest
     container_name: ns-tag_service
     ports:
       - 10004:10004
