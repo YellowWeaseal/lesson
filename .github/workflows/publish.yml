@@ -76,7 +76,7 @@ jobs:
         key: ${{secrets.KART_SSH_PRIV_KEY}}
         inventory: |
           [all]
-          kartservices.com ansible_ssh_port=${{secrets.KART_SSH_PORT}} ansible_ssh_user=${{secrets.KART_SSH_USER}} ansible_become_user=${{secrets.KART_ANSIBLE_BECOME_USER}} ansible_become_password=${{secrets.KART_ANSIBLE_BECOME_PASSWORD}}
+          82.202.143.25 ansible_ssh_port=${{secrets.KART_SSH_PORT}} ansible_ssh_user=${{secrets.KART_SSH_USER}} ansible_become_user=${{secrets.KART_ANSIBLE_BECOME_USER}} ansible_become_password=${{secrets.KART_ANSIBLE_BECOME_PASSWORD}}
         options: |
           --verbose
   category_service:
@@ -107,7 +107,7 @@ jobs:
         key: ${{secrets.KART_SSH_PRIV_KEY}}
         inventory: |
           [all]
-          kartservices.com ansible_ssh_port=${{secrets.KART_SSH_PORT}} ansible_ssh_user=${{secrets.KART_SSH_USER}} ansible_become_user=${{secrets.KART_ANSIBLE_BECOME_USER}} ansible_become_password=${{secrets.KART_ANSIBLE_BECOME_PASSWORD}}
+          82.202.143.25 ansible_ssh_port=${{secrets.KART_SSH_PORT}} ansible_ssh_user=${{secrets.KART_SSH_USER}} ansible_become_user=${{secrets.KART_ANSIBLE_BECOME_USER}} ansible_become_password=${{secrets.KART_ANSIBLE_BECOME_PASSWORD}}
         options: |
           --verbose
   file_service:
@@ -138,7 +138,7 @@ jobs:
         key: ${{secrets.KART_SSH_PRIV_KEY}}
         inventory: |
           [all]
-          kartservices.com ansible_ssh_port=${{secrets.KART_SSH_PORT}} ansible_ssh_user=${{secrets.KART_SSH_USER}} ansible_become_user=${{secrets.KART_ANSIBLE_BECOME_USER}} ansible_become_password=${{secrets.KART_ANSIBLE_BECOME_PASSWORD}}
+          82.202.143.25 ansible_ssh_port=${{secrets.KART_SSH_PORT}} ansible_ssh_user=${{secrets.KART_SSH_USER}} ansible_become_user=${{secrets.KART_ANSIBLE_BECOME_USER}} ansible_become_password=${{secrets.KART_ANSIBLE_BECOME_PASSWORD}}
         options: |
           --verbose
   note_service:
@@ -169,7 +169,7 @@ jobs:
         key: ${{secrets.KART_SSH_PRIV_KEY}}
         inventory: |
           [all]
-          kartservices.com ansible_ssh_port=${{secrets.KART_SSH_PORT}} ansible_ssh_user=${{secrets.KART_SSH_USER}} ansible_become_user=${{secrets.KART_ANSIBLE_BECOME_USER}} ansible_become_password=${{secrets.KART_ANSIBLE_BECOME_PASSWORD}}
+          82.202.143.25 ansible_ssh_port=${{secrets.KART_SSH_PORT}} ansible_ssh_user=${{secrets.KART_SSH_USER}} ansible_become_user=${{secrets.KART_ANSIBLE_BECOME_USER}} ansible_become_password=${{secrets.KART_ANSIBLE_BECOME_PASSWORD}}
         options: |
           --verbose
   tag_service:
@@ -200,7 +200,7 @@ jobs:
         key: ${{secrets.KART_SSH_PRIV_KEY}}
         inventory: |
           [all]
-          kartservices.com ansible_ssh_port=${{secrets.KART_SSH_PORT}} ansible_ssh_user=${{secrets.KART_SSH_USER}} ansible_become_user=${{secrets.KART_ANSIBLE_BECOME_USER}} ansible_become_password=${{secrets.KART_ANSIBLE_BECOME_PASSWORD}}
+          82.202.143.25 ansible_ssh_port=${{secrets.KART_SSH_PORT}} ansible_ssh_user=${{secrets.KART_SSH_USER}} ansible_become_user=${{secrets.KART_ANSIBLE_BECOME_USER}} ansible_become_password=${{secrets.KART_ANSIBLE_BECOME_PASSWORD}}
         options: |
           --verbose
   user_service:
@@ -231,6 +231,6 @@ jobs:
         key: ${{secrets.KART_SSH_PRIV_KEY}}
         inventory: |
           [all]
-          kartservices.com ansible_ssh_port=${{secrets.KART_SSH_PORT}} ansible_ssh_user=${{secrets.KART_SSH_USER}} ansible_become_user=${{secrets.KART_ANSIBLE_BECOME_USER}} ansible_become_password=${{secrets.KART_ANSIBLE_BECOME_PASSWORD}}
+          82.202.143.25 ansible_ssh_port=${{secrets.KART_SSH_PORT}} ansible_ssh_user=${{secrets.KART_SSH_USER}} ansible_become_user=${{secrets.KART_ANSIBLE_BECOME_USER}} ansible_become_password=${{secrets.KART_ANSIBLE_BECOME_PASSWORD}}
         options: |
           --verbose
